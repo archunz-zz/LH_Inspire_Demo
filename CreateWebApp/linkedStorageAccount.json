@@ -5,13 +5,13 @@
     "storageAccountName": {
       "type": "string",
       "metadata": {
-        "description": "Specify the storage account name."
+        "description": "PipelineStorageTest"
       }
     },
     "location": {
       "type": "string",
       "metadata": {
-        "description": "Specify a location for the resources."
+        "description": "Central US"
       }
     },
     "storageSKU": {
@@ -28,7 +28,7 @@
         "Standard_RAGZRS"
       ],
       "metadata": {
-        "description": "Specify the storage account type."
+        "description": "Standard_LRS."
       }
     }
   },
