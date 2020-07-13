@@ -20,7 +20,7 @@ steps:
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName LH_Inspire_Demo_Project -linkedTemplateUri https://raw.githubusercontent.com/archunz/LH_Inspire_Demo/master/CreateWebApp/linkedStorageAccount.json'
+    overrideParameters: '-projectName LH_Demo -linkedTemplateUri https://raw.githubusercontent.com/archunz/LH_Inspire_Demo/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'LH_Test_Pipeline_Deploy'
 
